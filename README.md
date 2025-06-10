@@ -1,16 +1,52 @@
-<<<<<<< HEAD
-# React + Vite
+# T3 Chat Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clone of the T3 chat application, built using React for the frontend. This project replicates the core features of a modern chat application with a clean and responsive design.
 
-Currently, two official plugins are available:
+## Table of Contents
+1. [Project Overview]
+2. [Tech Stack]
+3. [Setup Instructions]
+4. [Folder Structure]
+5. [Contributing]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Project Overview
+Frontend structure has created
+Pending tasks:
+1. Authentication
+2. Api contribution
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# t3-chat-clone
->>>>>>> db04c89473a808516d5c2822f94462b07657e79a
+## Tech Stack
+- **Frontend**: React.js
+- **State Management**: Context API or Redux
+- **Styling**: Tailwind css
+- **API**: ??
+
+## Setup Instructions
+Follow these steps to get your local environment up and running:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/ShribasKundu12/t3-chat-clone.git
+   cd t3-chat-clone
+   
+## Folder Structure
+
+/t3-chat-clone
+├── /public                # Public assets like images and index.html
+├── /src                   # Main source code of the app
+│   ├── /components        # Reusable UI components
+│   │   ├── ChatInput.jsx  # Chat input UI component
+│   │   ├── Layout.jsx     # Layout component for structuring the app
+│   │   ├── WelcomeMessageScreen.jsx  # Welcome message screen component
+│   │   └── Sidebar.jsx    # Sidebar component
+│   ├── /pages            # Different pages of the app (e.g., Home, About, etc.)
+│   ├── /styles           # Global styles (CSS, Tailwind, etc.)
+│   ├── main.jsx          # Main entry point of the app
+│   └── App.jsx           # Main app component
+├── package.json           # Project dependencies and scripts
+└── README.md              # Project documentation
+
+![image](https://github.com/user-attachments/assets/6b2263aa-f316-41ac-be6c-7daea8320fa3)
+
