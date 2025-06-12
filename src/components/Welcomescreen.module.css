@@ -2,6 +2,7 @@
   color: white;
   text-align: center;
   margin-top: 6rem;
+  margin-left: 250px;
 }
 
 .heading {
@@ -49,7 +50,7 @@
 
 .footerText {
   font-size: 0.75rem;
-  margin-top: 3rem;
+  margin-top: 6rem;
   color: #9ca3af; /* a soft gray */
 }
 
@@ -57,3 +58,14 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+.questionItem {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* light line */
+}
+
+/* Remove line from last item */
+.questionItem:last-child {
+  border-bottom: none;
+}
+

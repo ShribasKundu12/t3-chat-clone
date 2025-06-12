@@ -27,8 +27,8 @@ const WelcomeScreen = () => {
         ))}
       </div>
 
-      <p className={styles.footerText}>
-        Make sure you agree to our <a>Terms</a> and our <a>Privacy Policy</a>
+      <p className={styles.footerText} style={{display:'flex',color:'#a6a4a4'}}>
+        Make sure you agree to our <a style={{marginLeft:'5px',marginRight:'5px',color:'white'}}>Terms</a> and our <a  style={{marginLeft:'5px',color:'white'}}>Privacy Policy</a>
       </p>
     </div>
   );

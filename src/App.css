@@ -2,9 +2,13 @@
   max-width: 1280px;
   text-align: center;
 }
+/* Hide scrollbars completely */
+body, html {
+  overflow: hidden;
+}
+
 .sidebar-msg{
   display: flex;
-  gap:20rem
 }
 .flex-1{
   margin-top: 100px;
